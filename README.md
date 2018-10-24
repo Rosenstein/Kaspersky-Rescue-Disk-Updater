@@ -13,13 +13,13 @@ So if you don't download the rescue disk regularly, the virus definitions become
 
 This tool fixes the above problems by updating your existing Kaspersky Rescue Disk ISO with the latest virus definitions from the Kaspersky Servers.This helps in keeping your recue disk up date without having to download a lot of files.Hence saving a lot of time and bandwidth.
 
-1 . Download Kaspersky Rescue Disk from http://rescuedisk.kaspersky-labs.com/rescuedisk/updatable/kav_rescue_10.iso
+1 . Download Kaspersky Rescue Disk from ~http://rescuedisk.kaspersky-labs.com/rescuedisk/updatable/kav_rescue_10.iso~
 
-2 . Download the above the Updater as a zip from http://github.com/bbalegere/Kaspersky-Rescue-Disk-Updater/zipball/master and extract it to directory of your choice.
+2 . Download the above the Updater as a zip from https://github.com/Rosenstein/Kaspersky-Rescue-Disk-Updater/archive/master.zip and extract it to directory of your choice.
 
 3 . Rename kav_rescue_10.iso as rescue.iso and copy it to the above directory.
 
-4 . Run diskupdt.bat
+4 . Run diskupdt.bat (or run dlupdate.bat if you only want to download fresh virus defs without creating new .iso)
 
 5 . After the update is done you will see two files -> rescue.iso and rescueusb.iso
 
