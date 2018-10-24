@@ -15,7 +15,7 @@ echo.
 echo.
 Echo Extracting the contents of Kaspersky Rescue Disk
 Title Extracting Kaspersky Rescue Disk
-.\tools\7z x -o"kavrescue" -y -x"![BOOT]\*.img" "rescue.iso"
+.\tools\7z x -o"kavrescue" -bsp2 -y -x"![BOOT]\*.img" "rescue.iso" > nul
 if errorlevel 1 goto :ERR
 echo Kaspersky Files Extracted in %~dp0kavrescue
 echo.
@@ -61,6 +61,7 @@ copy .\KLUpdater\Updates\bases\av\emu\i386\*.* .\kavrescue\rescue\bases\ > nul
 copy .\KLUpdater\Updates\bases\av\kdb\i386\kdb-i386-0607g.xml .\kavrescue\rescue\bases\kdb-0607g.xml > nul
 copy /y .\KLUpdater\Updates\bases\av\kdb\i386\old\kdb.stt .\kavrescue\rescue\bases\stat\kdb.stt > nul
 copy .\KLUpdater\Updates\index\u0607g.xml .\kavrescue\rescue\bases\data\u0607g.xml > nul
+for /f "tokens=1,2,3,4,5,6 usebackq delims=.:-/ " %%a in ('%date% %time%') do echo bases id:%%c%%b%%a%%d%%e > .\kavrescue\rescue\BASES.ID
 echo Successfully Copied Updated Definition Files to your Rescue Disk
 echo.
 echo.
