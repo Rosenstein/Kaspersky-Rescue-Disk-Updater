@@ -1,9 +1,15 @@
+
+## Archived
+# Kaspersky Rescue Disk 18 is out, use that
+## https://github.com/Rosenstein/Kaspersky-Rescue-Disk18-Updater
+
 http://agnipulse.com/2009/12/kaspersky-rescue-disk-updater/
-
+```
+```
 Kaspersky Rescue Disk 10 has reached it's [EOL](https://support.kaspersky.com/14540)
-And as such it cannot be downloaded from Kaspersky's website anymore.
+and can't be downloaded from Kaspersky's website anymore.
 
-It can be downloaded from [Archive.org/details/KasperskyRescueDisk10.0.32.17Data2018.05.05](https://archive.org/details/KasperskyRescueDisk10.0.32.17Data2018.05.05)
+It can be downloaded from [Archive.org/details/KasperskyRescueDisk10.0.32.17Data2018.05.05](https://archive.org/details/KasperskyRescueDisk10.0.32.17Data2018.05.05) if you so desire
 
 Kaspersky Rescue Disk Updater is a tool which uses KLUpdater to update the virus definitions of the Kaspersky Rescue Disk 10 ISO.
 
@@ -38,7 +44,3 @@ Or you can manually make your USB Drive bootable.
 3 . Copy liveusb and menu.lst to the root of your USB Drive.
 
 4 . You can now boot the rescue disk from your USB Drive.
-
-
-
-
